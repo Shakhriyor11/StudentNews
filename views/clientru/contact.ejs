@@ -1,0 +1,51 @@
+
+
+        <section class="call">
+            <div class="container">
+                <div class="web__head">
+                    <a class="back__link" href="/ru">Главное меню</a>
+                    <a class="back__town" >Коммуникация</a>
+                </div>
+
+                <div class="call__content">
+                    <h3 class="web__name">Коммуникация</h3>
+                    <p class="call__text">У вас есть предложения или комментарии по сайту? Статья для "Tahlil24.uz"
+                        или вы хотите отправить сообщение? Или себя
+                        Вы хотите сообщить о каком-либо инциденте, свидетелем которого вы стали? Мы готовы сотрудничать с вами
+                        ссылка.</p>
+
+                    <span class="web__name">Отправить сообщение</span>
+                    <!-- O'zgatirildi -->
+                    <form class=" form__action" method="POST" action="/contact">
+                        <div class="input__body">
+                            <div class="input__name">
+                                <label class="form-label">
+                                    <input name="fullname" minlength="7" class="input__contact" type="text" placeholder="Ф.И.O.*" required>
+                                </label>
+                            </div>
+
+                            <div class="input__name input_contact">
+                                <label class="form-label">
+                                    <input name="email" minlength="7" class="input__contact" type="email" placeholder="Эл.почта" required>
+                                </label>
+                            </div>
+                            <div class="input__name input_call">
+                                <label class="form-label">
+                                    <input name="phone" minlength="6" class="input__call" type="tel"  placeholder="Телефон номер" required>
+
+                                </label>
+                            </div>
+                        </div>
+                        <span class="web__name">Содержание сообщения</span>
+                        <p>
+                            <textarea name="message" required class="text__area" rows="6"></textarea>
+                        </p>
+                        <div class="send__icon">
+                            <input class="send__input" minlength="10" type="submit" name="send" required value="Отправить">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
